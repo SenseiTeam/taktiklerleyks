@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası | Taktiklerle YKS 2026</title>
+  <style>
+    :root {
+      --bg: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+      --text: #222;
+      --card: rgba(255, 255, 255, 0.8);
+      --accent: #3aafa9;
+      --accent-dark: #2b7a78;
+    }
+
+    body.dark {
+      --bg: linear-gradient(to bottom right, #222, #111);
+      --text: #eee;
+      --card: rgba(40, 40, 40, 0.9);
+    }
+
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.6s ease, color 0.6s ease;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background: var(--card);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 1.6em;
+      color: var(--accent-dark);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--accent-dark);
+    }
+
+    .toggle-theme {
+      cursor: pointer;
+      background: var(--accent);
+      border: none;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    .toggle-theme:hover {
+      background: var(--accent-dark);
+    }
+
+    main {
+      padding: 60px 10%;
+      background: transparent;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--accent-dark);
+      margin-top: 40px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: var(--card);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background: var(--accent-dark);
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 10%;
+      background: var(--card);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex; align-items:center; gap:10px;">
+    <img src="https://i.pinimg.com/736x/69/70/76/69707696da9c90d4640f605bf02948de.jpg" alt="YKS Logo" style="height:45px; border-radius:8px;">
+    <h1>Taktiklerle YKS 2026</h1>
+  </div>
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="gizlilik.html" style="color:var(--accent-dark); font-weight:700;">Gizlilik</a>
+  </nav>
+  <button class="toggle-theme" onclick="document.body.classList.toggle('dark')">🌙</button>
+</header>
+
+<main>
+  <h1>📄 Gizlilik Politikası</h1>
+  <p><strong>Uygulama Adı:</strong> Taktiklerle YKS 2026 (TYT Biyoloji)</p>
+  <p><strong>Paket Adı:</strong> com.senseiteamsoftware.tytbiyoloji</p>
+  <p><strong>Yayımlayan / Geliştirici:</strong> Sensei Team Software</p>
+  <p><strong>İletişim:</strong> senseiteamdeveloper@gmail.com</p>
+  <p><strong>Yürürlük Tarihi:</strong> 24 Eylül 2025</p>
+
+  <h2>1. Giriş</h2>
+  <p>Bu Gizlilik Politikası, Taktiklerle YKS 2026 (TYT Biyoloji) uygulamasını kullanan kullanıcıların kişisel verilerinin nasıl toplandığını, işlendiğini, saklandığını, paylaşıldığını ve korunduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+
+  <h2>2. Toplanan Veriler ve Toplama Yöntemleri</h2>
+  <table>
+    <tr>
+      <th>Veri Türü</th>
+      <th>Örnekler</th>
+      <th>Toplama Yöntemi / Zamanı</th>
+    </tr>
+    <tr>
+      <td>Kimlik / Kişisel Bilgiler</td>
+      <td>Ad, e-posta adresi (destek, iletişim için)</td>
+      <td>Kullanıcı e-posta veya uygulama içi form yoluyla iletişim kurduğunda</td>
+    </tr>
+    <tr>
+      <td>Cihaz Bilgileri</td>
+      <td>Cihaz modeli, işletim sistemi, dil, ekran boyutu</td>
+      <td>Uygulama başlatıldığında veya kullanım sırasında</td>
+    </tr>
+    <tr>
+      <td>Kullanım / Analitik Veriler</td>
+      <td>Oturum süresi, açılan bölümler, hata geçmişi</td>
+      <td>Uygulama kullanımı sırasında otomatik</td>
+    </tr>
+    <tr>
+      <td>Reklam ve İzleme Verileri</td>
+      <td>Advertising ID, reklam istatistikleri</td>
+      <td>Google AdMob & Play Services SDK’ları</td>
+    </tr>
+    <tr>
+      <td>Hata ve Performans Verileri</td>
+      <td>Crash log’lar, IP adresi</td>
+      <td>Firebase Crashlytics / Play Services</td>
+    </tr>
+  </table>
+
+  <h2>3. Verilerin Kullanım Amaçları</h2>
+  <ul>
+    <li>Uygulama işlevselliğini sağlamak</li>
+    <li>Reklam ve performans ölçümü</li>
+    <li>Analiz ve kullanıcı deneyimi geliştirme</li>
+    <li>Hata ayıklama, güvenlik ve sahtekarlık önleme</li>
+    <li>Kullanıcı desteği ve bilgilendirme</li>
+    <li>Yasal yükümlülüklerin yerine getirilmesi</li>
+  </ul>
+
+  <h2>4. Üçüncü Taraf Hizmetleri</h2>
+  <ul>
+    <li>Google AdMob</li>
+    <li>Google Play Services</li>
+    <li>Firebase Crashlytics & Cloud Messaging</li>
+  </ul>
+  <p>Daha fazla bilgi: <a href="https://policies.google.com/privacy" target="_blank">🔗 Google Gizlilik Politikası</a></p>
+
+  <h2>5. Veri Paylaşımı</h2>
+  <p>Veriler yalnızca anonim analiz, yasal gereklilik veya teknik destek durumlarında paylaşılır. Kişisel veriler rıza olmadan satılmaz veya üçüncü taraflarla paylaşılmaz.</p>
+
+  <h2>6. Veri Saklama Süresi</h2>
+  <p>Analitik ve reklam verileri: 6–24 ay<br>Destek verileri: 1–2 yıl<br>Kimlik verileri: hesap silinene kadar.</p>
+
+  <h2>7. Veri Güvenliği</h2>
+  <p>SSL / TLS şifreleme, erişim kontrolleri ve düzenli güvenlik testleri uygulanır.</p>
+
+  <h2>8. Çocukların Verileri</h2>
+  <p>16 yaş altındaki kullanıcıların verileri bilerek toplanmaz. Tespit edilirse silinir.</p>
+
+  <h2>9. Kullanıcı Hakları</h2>
+  <p>Kullanıcılar verilerine erişim, düzeltme, silme ve işlemeye itiraz etme hakkına sahiptir. İletişim: <strong>📧 senseiteamsoftware@gmail.com</strong></p>
+
+  <h2>10. Çerezler ve İzleme Teknolojileri</h2>
+  <p>SDK’lar aracılığıyla anonim cihaz ve kullanım verileri toplanabilir.</p>
+
+  <h2>11. Üçüncü Taraf Bağlantılar</h2>
+  <p>Uygulamadaki dış bağlantılardan geliştirici sorumlu değildir.</p>
+
+  <h2>12. Politikanın Güncellenmesi</h2>
+  <p>Politika değişiklikleri uygulama içi veya e-posta ile bildirilir. Yayınlandığı anda geçerli olur.</p>
+
+  <h2>13. İletişim Bilgileri</h2>
+  <p><strong>Geliştirici:</strong> Sensei Team Software<br>
+  <strong>E-posta:</strong> senseiteamsoftware@gmail.com<br>
+  <strong>Adres:</strong> Buca / İzmir, Türkiye</p>
+</main>
+
+<footer>
+  <p>© 2025 SenseiTeam Software | Tüm Hakları Saklıdır</p>
+</footer>
+
+</body>
+</html>
